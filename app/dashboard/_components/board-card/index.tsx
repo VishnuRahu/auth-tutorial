@@ -20,14 +20,14 @@ export const Boardcard=({
 }:BoardcardProps)=>{
     return(
         <Link href={`/board/`}>
-        <div className="group aspect-[100/127] border rounded-lg flex
-        flex-col justify-between overflow-hidden">
-            <div className="relative flex-1 bg-amber-50">
+        <div className="group aspect-[100/105] border rounded-lg flex
+        flex-col justify-between overflow-hidden ml-5 mr-7">
+            <div className="relative flex-1 bg-amber-700">
             <Image
                   alt="hello"
                   src="/tsk1.jpeg"
                   fill
-                  className="h-0.5"
+                  className="object-fit"
                />
                <Overlay/>
                </div>
